@@ -7,7 +7,7 @@ Task2 人脸表情检测，标注信息
 Task3 人脸识别demo   
 Task4 图像伪造，换脸    
 Task5 换脸检测 Face-X-Ray  
-[Face-X-Ray](git@github.com:neverUseThisName/Face-X-Ray.git)
+[Face-X-Ray](https://github.com/neverUseThisName/Face-X-Ray)
 
 ---
 ## Task1 人脸关键点实时
@@ -23,7 +23,7 @@ To Do:
 
 ## Task3 人脸识别 
 ### files
-* **./data/data_dlib/** 
+* **./data/data_dlib/**   
 [dlib_face_recognition_resnet_model_v1.dat](https://drive.google.com/file/d/1PkgywtSY-_Ji0rS489ouxflQyT8V-rdn/view?usp=sharing)  
 [shape_predictor_68_face_landmarks.dat](https://drive.google.com/file/d/1q1voY8JpRnDMebJzwDdVEl2g1j2ByCun/view?usp=sharing)
 * **./data/data_faces_from_camera/**  
@@ -67,7 +67,7 @@ git clone https://github.com/neverUseThisName/Face-X-Ray
 pip install numpy, opencv-python, scikit-image, dlib, tqdm, color_transfer.
 ```
 ### **“shape_predictor_68_face_landmarks.dat”**
-[Drive Download](https://drive.google.com/file/d/1q1voY8JpRnDMebJzwDdVEl2g1j2ByCun/view?usp=sharing)  
+[Drive Download： shape_predictor_68_face_landmarks.dat](https://drive.google.com/file/d/1q1voY8JpRnDMebJzwDdVEl2g1j2ByCun/view?usp=sharing)  
 将dat文件，放置在文件目录内
 
 ### **files**
@@ -86,4 +86,4 @@ python .\faceBlending.py -sfp=source -fd=database
 [1] ["Face X-ray for More General Face Forgery Detection"](https://arxiv.org/pdf/1912.13458.pdf)  
 [2] ["DeepFace: Closing the Gap to Human-Level Performance in Face Verification"](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Taigman_DeepFace_Closing_the_2014_CVPR_paper.pdf?spm=5176.100239.blogcont55892.18.pm8zm1&file=Taigman_DeepFace_Closing_the_2014_CVPR_paper.pdf)  
 [3] ["普氏分析"](https://en.wikipedia.org/wiki/Orthogonal_Procrustes_problem)  
-[4] ["face recognition"](git@github.com:coneypo/Dlib_face_recognition_from_camera.git)
+[4] ["Face Recognition"](https://github.com/coneypo/Dlib_face_recognition_from_camera)
